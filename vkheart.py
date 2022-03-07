@@ -10,12 +10,12 @@
 import vk_api
 import time
 
-vk_session = vk_api.VkApi(token="64df32ac68e510172d3f86c94424a2e871587aee07642974e2319840c7135d7886b59fab6fb71e533e562")
+vk_session = vk_api.VkApi(token="token")
 vk = vk_session.get_api()
 
-vk.messages.edit(peer_id="666572848", message="𝓑𝔂 𝓐𝓵𝓮𝔁 𝓥𝓸𝓵𝓴𝓸𝓿 | https://vk.com/sp0ki_n0ki", message_id=424626)
+vk.messages.edit(peer_id="id", message="𝓑𝔂 𝓐𝓵𝓮𝔁 𝓥𝓸𝓵𝓴𝓸𝓿 | https://vk.com/sp0ki_n0ki", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="""
+vk.messages.edit(peer_id="id", message="""
 	☁☁☁☁☁☁☁☁☁
 	☁☁💗💗☁💗💗☁☁
 	☁💗💗💗💗💗💗💗☁
@@ -24,9 +24,9 @@ vk.messages.edit(peer_id="666572848", message="""
 	☁☁💗💗💗💗💗☁☁
 	☁☁☁💗💗💗☁☁☁
 	☁☁☁☁💗☁☁☁☁
-	☁☁☁☁☁☁☁☁☁""", message_id=424626)
+	☁☁☁☁☁☁☁☁☁""", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="""
+vk.messages.edit(peer_id="id", message="""
 	🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤 
 	🖤🖤❤❤🖤🖤🖤❤❤🖤🖤 
 	🖤❤❤❤❤❤❤❤❤❤🖤 
@@ -36,9 +36,9 @@ vk.messages.edit(peer_id="666572848", message="""
 	🖤🖤🖤❤❤❤❤❤🖤🖤🖤 
 	🖤🖤🖤🖤❤❤❤🖤🖤🖤🖤 
 	🖤🖤🖤🖤🖤❤🖤🖤🖤🖤🖤 
-	🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤""", message_id=424626)
+	🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤""", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="""
+vk.messages.edit(peer_id="id", message="""
 	💙💙💙💙💙💙💙💙💙💙💙 
 	💙💙💜💜💙💙💙💜💜💙💙 
 	💙💜💜💜💜💜💜💜💜💜💙 
@@ -48,12 +48,12 @@ vk.messages.edit(peer_id="666572848", message="""
 	💙💙💙💜💜💜💜💜💙💙💙 
 	💙💙💙💙💜💜💜💙💙💙💙 
 	💙💙💙💙💙💜💙💙💙💙💙 
-	💙💙💙💙💙💙💙💙💙💙💙""", message_id=424626)
+	💙💙💙💙💙💙💙💙💙💙💙""", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="I", message_id=424626)
+vk.messages.edit(peer_id="id", message="I", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="LOVE", message_id=424626)
+vk.messages.edit(peer_id="id", message="LOVE", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="YOU❤️", message_id=424626)
+vk.messages.edit(peer_id="id", message="YOU❤️", message_id=messageid)
 time.sleep(1)
-vk.messages.edit(peer_id="666572848", message="I LOVE YOU❤️", message_id=424626)
+vk.messages.edit(peer_id="id", message="I LOVE YOU❤️", message_id=messageid)
