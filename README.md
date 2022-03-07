@@ -1,7 +1,7 @@
 # MAGIC❤️ Но в вк
 ## By Volkov Alexey | https://vk.com/sp0ki_n0ki
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Sp0k1n0k1/vkheart/issues/)]
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Sp0k1n0k1/vkheart/issues/)
 
 ## Инструкция
 0. Добываем access_token (https://vkhost.github.io)
